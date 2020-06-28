@@ -1,0 +1,130 @@
+html{font-family: 'Noto Serif KR', serif; box-sizing: border-box; scroll-behavior: smooth; background: black;}
+		body,h1,h2,img,p,div,ul,li{margin:0; padding: 0;}
+		section{margin:auto; display: flex; justify-content: center;background-color: black; width: 1550px;}
+		h1{font-weight: 500; word-spacing: -1px; letter-spacing: -2px; font-size: 5em;text-shadow: 0px 0px 20px white;} 
+		h2{font-weight: 600; word-spacing: -1px; letter-spacing: -2px; font-size: 3em;margin-bottom: 15px;}
+		p{font-weight: 300; word-spacing: -0.5px; letter-spacing: -0.8px; font-size: 1.3em; line-height: 1.5; word-break: keep-all; margin-bottom: 30px}
+		.footer-p{font-weight: 200; word-spacing: -0.5px; letter-spacing: -0.5px; font-size: 0.8em; margin-top: 100px;margin-bottom: 100px;}
+		img{display: block; width:100%;}
+		header{perspective: 1000px}
+		.head-ani{animation: head 6s linear infinite;}
+		@keyframes head{
+			100%{transform: rotate3D(1,1,0,360deg);}
+		}
+		.head-ani2{animation: head2 6s infinite;}
+		@keyframes head2{
+			100%{transform: rotate3D(1,1,0.5,360deg);}
+		}
+		.t-ani1{animation: t 4s linear infinite;}
+		@keyframes t{
+			0%{left: 600px; transform: rotate(0deg)}
+			50%{left: 850px;transform: rotate(45deg)}
+			100%{left: 600px;transform: rotate(0deg)}
+		}
+		.t-ani2{animation: tt 4s linear infinite;}
+		@keyframes tt{
+			0%{width:0px;}
+			15%{width:450px; transform: rotate(45deg)}
+			50%{width:450px; transform: rotate(0deg)}
+			85%{width:450px; transform: rotate(-45deg)}
+			100%{width:0px; transform: rotate(0deg)}
+		}
+		.t-ani3{animation: ttt 5s infinite;}
+		@keyframes ttt{
+ 			 0%{width:200px;left:700px; top:50px;}
+  			25%{width:400px;left:1000px; top:50px;}
+  			50%{width:400px;left:1000px; top:200px;}
+  			75%{width:200px;left:700px; top:200px;}
+  			100%{width:200px;left:700px; top:50px;}
+		}
+		.t-ani4{animation: tttt 4s infinite;}
+		@keyframes tttt{
+ 			 0%{width:200px; right:400px; top:700px;}
+  			50%{width:400px;right:650px; top:700px;}
+  			100%{width:200px;right:400px; top:700px;}
+		}
+
+
+		/*header{margin:auto; height: 1750px; width: 1550px;}*/
+
+		.bg-header{background: url(../img/bg.png); height: 1750px; width: 1550px;margin:auto;background-size:100%;background-color: black; background-attachment: scroll;}
+		.bg-header2{background: url(../img/bg2.png); height: 80px; width: 1550px;margin:auto;background-size:100%;background-color: black;margin-top: 300px;}
+		.bg-header3{background: url(../img/bg3.png); height: 80px; width: 1550px;margin:auto;background-size:100%;background-color: black;}
+		.bg-header4{background: url(../img/bg4.png); height: 500px; width: 1550px;margin:auto;background-size:100%;background-color: black;}
+		.bg-header5{background: url(../img/bg5.png); height: 80px; width: 1550px;margin:auto;background-size:100%;background-color: #8a77ff;}
+		.bg-header6{background: url(../img/bg6.png); height: 80px; width: 1550px;margin:auto;background-size:100%;background-color: #f6ff00;}
+
+
+		.bg-white{background-color: white;}
+		.bg-black{background-color: black;}
+
+		.row{width: 1500px; margin:auto; position: relative; z-index: 2; display: flex; padding : 0px 10px; margin-top:150px; margin-bottom:10px;}
+		.row div{padding: 8px;}
+		.flexbox{display: flex;}
+		.col-1{width: 10%;}
+		.col-2{width: 20%;}
+		.col-3{width: 30%;}
+		.col-4{width: 40%;}
+		.col-5{width: 50%;}
+		.col-6{width: 60%;}
+		.col-7{width: 70%;}
+		.col-8{width: 80%;}
+		.col-9{width: 90%;}
+		.col-10{width: 100%;}
+
+		.text-white{color: white;}
+		.text-big{font-size: 5em; font-weight: 500;}
+		.text-mid{font-size: 3em; font-weight: 500;}
+		.text-center{text-align: center;}
+		.text-right{text-align: right;}
+
+		.center{display: block; margin-right: auto;margin-left: auto;}
+
+		.mona{opacity: 1;}
+		.mona:hover{transition: all 0.5s; opacity: 0.5;}
+
+		.img-size-s{width: 230px; margin: auto;}
+		.img-size-ss{width: 80px; margin: auto;}
+		.img-size-m{width: 800px; margin: auto;}
+		.p-font-size-2em{font-size: 1.5em;}
+		.p-margin-top{margin-top: 30px;}
+		.margin-30{margin:30px;}
+		.margin-top-450{margin-top:450px;}
+		.margin-top-100{margin-top:100px}
+
+
+		#abs-mobang{position: absolute; width: 1400px; left:calc(50% - 700px); top:100px;}
+		#abs-mobang2{position: absolute; width: 300px; left:calc(50% - 150px); top:370px;}
+
+		#abs1{position: absolute; width: 700px; left: 200px;z-index: 1;}
+		#abs5{position: absolute; width: 350px; left: 500px;z-index: 1;}
+		#abs3{position: absolute; width: 500px; right: 150px; top:550px;z-index: 2;}
+		
+		#abs2{position: absolute; width: 400px; left: 800px;top: 50px;}
+		#abs4{position: absolute; width: 450px; right: 600px; top:700px}
+
+		#abs6{position: absolute; width: 450px; left:300PX;;z-index: 1;}
+		#abs7{position: absolute; width: 400px; right: 150px;top:300px;z-index: 1;}
+		#abs8{position: absolute; width: 450px; right: 250px; top:450px;z-index: 2;}
+		#abs9{position: absolute; width: 300px; right: 500px; top:700px}
+
+		#abs10{position: absolute; width: 500px; right: 100px;top:550px;}
+		#abs11{position: absolute; width: 500px; left:calc(50% - 250px);top:30px;}
+
+		.h-6000{height:4500px}
+		.h-400{height:400px}
+		.h-500{height:500px}
+		.h-600{height:600px;}
+		.h-680{height:680px;}
+		.h-900{height:900px}
+		.h-1300{height:1300px}
+
+		.sticky{position: sticky;}
+		.navbar{height: 25px; background:white;}
+		.flexbox{display: flex;}
+		nav{margin:auto;top:0;z-index: 20; position: sticky;width: 1550px}
+		nav ul{margin:auto;}
+		nav ul li{list-style-type: none; width:20%; height: 25px; line-height: 25px; text-align: center;}
+		nav ul li a{display: block; line-height: 25px; text-align: center; text-decoration: none; color:black; font-weight: 500;}
+		nav ul li a:hover{background:none; transition: all 0.5s; opacity: 0.2}
+		
